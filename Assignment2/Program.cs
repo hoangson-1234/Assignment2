@@ -2,18 +2,35 @@
 {
     using System;
 
+    enum SIGN
+    {
+        PLUS,
+        MINUS,
+        MULTIPLY,
+        DIVIDE
+    }
+
     class Program
     {
         static void Main()
         {
             Console.Write("Enter a: ");
-            int a = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
 
             Console.Write("Enter b: ");
-            int b = int.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
 
-            int result = a - b;
+            double result = calculate(SIGN.PLUS, a, b);
             Console.WriteLine("Result = " + result);
+        }
+
+        static double calculate(SIGN sign, double arg1, double arg2)
+        {
+            switch (sign)
+            {
+                default:
+                    return 0;
+            }
         }
     }
 }
