@@ -12,8 +12,9 @@
             Console.Write("Enter b: ");
             int b = int.Parse(Console.ReadLine());
 
-            int result = a - b;
+            int result = a * b;
             Console.WriteLine("Result = " + result);
         }
     }
 }
+
