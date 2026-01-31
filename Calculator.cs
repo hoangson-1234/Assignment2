@@ -17,15 +17,17 @@ namespace Assignment2
 
     public class Calculator
     {
-        
+
         private Double calculate(SIGN sign, Double arg1, Double arg2)
         {
             switch (sign)
             {
+                case SIGN.DIVIDE:
+                    return arg1 / arg2; 
                 default:
                     break;
             }
-            return 0d; 
+            return 0;
         }
     }
 }
