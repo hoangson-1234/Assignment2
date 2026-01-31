@@ -22,6 +22,8 @@ namespace Assignment2
         {
             switch (sign)
             {
+                case SIGN.MINUS:
+                    return arg1 - arg2; 
                 case SIGN.PLUS:
                     return arg1 + arg2; 
                 default:
