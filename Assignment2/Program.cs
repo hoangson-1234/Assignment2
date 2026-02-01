@@ -1,8 +1,7 @@
-﻿namespace Assignment2
-{
-    using System;
+﻿using System;
 
-<<<<<<< HEAD
+namespace Assignment2
+{
     enum SIGN
     {
         PLUS,
@@ -11,40 +10,40 @@
         DIVIDE
     }
 
-=======
->>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
     class Program
     {
         static void Main()
         {
             Console.Write("Enter a: ");
-<<<<<<< HEAD
             double a = double.Parse(Console.ReadLine());
 
             Console.Write("Enter b: ");
             double b = double.Parse(Console.ReadLine());
 
-            double result = calculate(SIGN.PLUS, a, b);
-            Console.WriteLine("Result = " + result);
+            double plus = Calculate(SIGN.PLUS, a, b);
+            double minus = Calculate(SIGN.MINUS, a, b);
+            double multiply = Calculate(SIGN.MULTIPLY, a, b);
+            double divide = Calculate(SIGN.DIVIDE, a, b);
+
+            Console.WriteLine($"{plus}, {minus}, {multiply}, {divide}");
         }
 
-        static double calculate(SIGN sign, double arg1, double arg2)
+        static double Calculate(SIGN sign, double arg1, double arg2)
         {
             switch (sign)
             {
+                case SIGN.PLUS:
+                    return arg1 + arg2;
+                case SIGN.MINUS:
+                    return arg1 - arg2;
+                case SIGN.MULTIPLY:
+                    return arg1 * arg2;
+                case SIGN.DIVIDE:
+                    return arg2 != 0 ? arg1 / arg2 : 0;
                 default:
                     return 0;
             }
         }
-=======
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter b: ");
-            int b = int.Parse(Console.ReadLine());
-
-            int result = a + b;
-            Console.WriteLine("Result = " + result);
-        }
->>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
     }
 }
+
