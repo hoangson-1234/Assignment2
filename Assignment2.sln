@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2", "Assignment2\Assignment2.csproj", "{C1CDECD9-2B26-4E09-972C-8ABE5F5CDCE5}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2", "Assignment2\Assignment2.csproj", "{F31031B3-335E-41C8-AF93-66ECCA40B29F}"
+>>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{C1CDECD9-2B26-4E09-972C-8ABE5F5CDCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1CDECD9-2B26-4E09-972C-8ABE5F5CDCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1CDECD9-2B26-4E09-972C-8ABE5F5CDCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1CDECD9-2B26-4E09-972C-8ABE5F5CDCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{F31031B3-335E-41C8-AF93-66ECCA40B29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31031B3-335E-41C8-AF93-66ECCA40B29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31031B3-335E-41C8-AF93-66ECCA40B29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31031B3-335E-41C8-AF93-66ECCA40B29F}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {936681D1-AA9F-410F-8D23-B7747A608762}
+=======
+		SolutionGuid = {482A35AA-635D-4753-B756-3945C3AA40F0}
+>>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
 	EndGlobalSection
 EndGlobal

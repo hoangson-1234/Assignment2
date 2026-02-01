@@ -2,6 +2,7 @@
 {
     using System;
 
+<<<<<<< HEAD
     enum SIGN
     {
         PLUS,
@@ -10,11 +11,14 @@
         DIVIDE
     }
 
+=======
+>>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
     class Program
     {
         static void Main()
         {
             Console.Write("Enter a: ");
+<<<<<<< HEAD
             double a = double.Parse(Console.ReadLine());
 
             Console.Write("Enter b: ");
@@ -32,5 +36,15 @@
                     return 0;
             }
         }
+=======
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter b: ");
+            int b = int.Parse(Console.ReadLine());
+
+            int result = a + b;
+            Console.WriteLine("Result = " + result);
+        }
+>>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
     }
 }
