@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 # Visual Studio
 .vs/
 bin/
 obj/
 
 # User files
-=======
-.vs/
-bin/
-obj/
->>>>>>> origin/feature/CPL26/nguyenhoanganh/implement_plus
 *.user
 *.suo
+
